@@ -29,7 +29,7 @@
 			// Instantiate controller class
 			$this->currentController = new $this->currentController;
 
-			// Check for second part of url
+			// Check for second part of url for method
 			if(isset($url[1])){
 				// Check to see if method exists in controller
 				if(method_exists($this->currentController, $url[1])){
