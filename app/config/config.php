@@ -1,14 +1,15 @@
 <?php 
 	// DB params
 	define('DB_HOST', 'localhost');
-	define('DB_USER', '__YOUR_USER__');
-	define('DB_PASS', '__YOUR_PASS__');
-	define('DB_NAME', '__YOUR_DBNAME__');
+	define('DB_USER', 'root');
+	define('DB_PASS', '123456');
+	define('DB_NAME', 'carlojsblog');
 
 	// App Root
 	define('APPROOT', dirname(dirname(__FILE__)));
 	// URL Root
-	define('URLROOT', '__YOUR_URL__');
+	define('URLROOT', 'http://localhost:100/carlojsblog');
 	// Site Name
-	define('SITENAME', '__YOUR_SITENAME_');
-	
+	define('SITENAME', 'CarloJS.blog');
+	// App Version
+	define('APPVERSION', '1.0.0');

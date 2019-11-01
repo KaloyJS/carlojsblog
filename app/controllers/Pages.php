@@ -7,7 +7,8 @@
 		public function index(){	
 
 			$data = [
-				'title' => 'cjsMVC'				
+				'title' => 'CarloJS.blog',
+				'description' => "Carlo JS' musings on his journey in life and web development"				
 			];
 
 
@@ -17,7 +18,8 @@
 
 		public function about(){
 			$data = [
-				'title' => 'Welcome'
+				'title' => 'ʇnoqɐ',
+				'description' => "A little Webapp to share my views,thoughts and stories to the world"
 			];
 			
 
